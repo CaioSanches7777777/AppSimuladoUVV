@@ -1,7 +1,7 @@
 import { StyleSheet } from "react-native";
 
-export default function styles(){
-const styles = StyleSheet.create ={
+
+const styles = StyleSheet.create ({
 container: {
     width: '100%',
     flexDirection: 'row',
@@ -43,6 +43,8 @@ preco: {
     marginBotton: 5
 },
 btm: {
-
+    padding: 10,
+    backgroundColor: 'yellow'
 }
-}}
+});
+export default styles;
