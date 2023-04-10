@@ -8,16 +8,17 @@ container: {
     padding: 10,
     margin: 3,
     alignItems: 'center',
-    justifyContent: 'space-between'
+    justifyContent: 'flex-start'
 },
 viewImg: {
     width: 100,
-    height: 120,
+    height: 150,
     backgroundColor: 'yellow'
 },
 img: {
     width: '100%',
-    height: '100%'
+    height: '100%',
+    borderRadius: 10
 },
 viewData: {
     backgroundColor: 'green',
