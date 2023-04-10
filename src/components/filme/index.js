@@ -1,12 +1,12 @@
 import { StyleSheet } from "react-native";
 import { Button, Image, Text, View } from "react-native-web";
-import styles from "./styles";
+import styles from './styles';
 
 export default function Filme(props){
     return(
         <View style={styles.conmtainer}>
             <View style={styles.viewImg}>
-                <Image source={{url: props.filme.imgUrl}} style={styles.img}></Image>
+                <Image source={{uri: props.filme.imgUrl}} style={styles.img}></Image>
             </View>
 
             <View style={styles.viewData}>
