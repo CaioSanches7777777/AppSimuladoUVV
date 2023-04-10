@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Filme from './src/components/filme';
-import styles from './src/components/filme';
+
 
 export default function App() {
   const filmes = [
@@ -12,6 +12,7 @@ export default function App() {
       imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg8Rn1TMAdicaFC_bLHYW1oTrcpC53GrxMAQ&usqp=CAU",
     }
   ]
+
   return (
     <View style={styles.container}>
       {filmes.map(f => <Filme filme={f}></Filme>)}
@@ -20,3 +21,11 @@ export default function App() {
   );
 }
 
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+})
