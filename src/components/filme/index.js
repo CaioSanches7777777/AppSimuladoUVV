@@ -4,7 +4,7 @@ import styles from './styles';
 
 export default function Filme(props){
     return(
-        <View style={styles.conmtainer}>
+        <View style={styles.container}>
             <View style={styles.viewImg}>
                 <Image source={{uri: props.filme.imgUrl}} style={styles.img}></Image>
             </View>
